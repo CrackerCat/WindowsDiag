@@ -1,4 +1,17 @@
 **Revision History**
+::  2020.11.03.0 upd DNSsrv
+::  2020.11.02.2 upd xray 201102; upd Klist.exe; changed Auth trace to InternetClient; mod tss_PrereqCheck; re-enable :PurgeFiles in SchTask if ProcMon=0
+::  2020.10.29.0 added NetVsc in HypVM
+::  2020.10.27.1  add "HKCU\Software\Microsoft\Windows\CurrentVersion\NetCache" to CSC; check for ! in path
+::  2020.10.26.0 upd Net SDP with CscDbDump
+::  2020.10.23.0 upd xray 201023
+::  2020.10.22.0 fixed Diskspace calc for CHN traces; QFE for failing stopping unnecessary ETW sessions
+::  2020.10.21.1 PSR fix for 2008; allow Xperf:spec:maxF 
+::  2020.10.16.1 upd PerfMon counter; modify CertEnroll, upd Get-NetView
+::  2020.10.15.0 remove WFPdiag/RASdiag from TssETLs
+::  2020.10.14.1 upd psSDP, tss-LKG 201009; upd xray 201014; early CheckScriptPath
+::  2020.10.09.0 upd GetNetView, PrivateCloud.DiagnosticInfo, UXtrace
+::  2020.10.08.0 upd psSDP
 ::  2020.10.07.1 add MDM, upd Auth v2.7; modified Xperf:SMB2 to include network
 ::  2020.10.02.0 upd iDNA, upd xray 201002
 ::  2020.09.30.1 remove tss_Wmi-Collect.ps1; fixed regression in :Start_Profile
